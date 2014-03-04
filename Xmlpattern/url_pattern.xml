@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlpattern>
+
+	<item name="网易新闻" >
+		<module>news_163_topic</module>
+		<regex>(http://news\.163\.com/\d+/\d+/\d+/\w+\.html)</regex>
+	</item>
+
+	<item name="网易论坛" >
+	<module>bbs_163_topic</module>
+		<regex>http://bbs\.\w+\.(\w+\.)?163\.com/bbs/\w+/\d+\.html</regex>
+	</item>
+
+	<item name="网易论坛" >
+	<module>bbs_163_reply</module>
+		<regex>http://bbs\.\w+\.(\w+\.)?163\.com/bbs/\w+/\d+,\d+\.html</regex>
+	</item>
+
+</urlpattern>

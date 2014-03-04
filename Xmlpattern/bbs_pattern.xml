@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GBK"?>
+<bbs_pattern_body>
+
+	<item name="网易">
+
+		<module>bbs_163_topic</module>
+		<title>//DIV[@class='articleTitle']/H3</title>
+		<edition>//DIV[@class='position']/A[3]</edition>
+		<author>//DIV[@class='articleTop']/DIV/DIV/A</author>
+		<content>//DIV[@class='articleTop']/DIV[2]/DIV[3]/DIV</content>
+		<time> //DIV[@class='articleTop']/DIV[2]/DIV/SPAN[2]</time>
+		<reNum>//DIV[@class='listSub']/DIV[3]</reNum>
+		<reauthor>//DIV[@class='articleReview']/DIV[@class='authorInfo']/DIV[@class='name']/A
+		</reauthor>
+		<recontent>//DIV[@class='articleReview']/DIV[2]/DIV[2]/DIV</recontent>
+		<retime>//DIV[@class='articleReview']/DIV[2]/DIV/SPAN[2]</retime>
+	</item>
+
+	<item name="网易">
+		<module>bbs_163_reply</module>
+		<title>//DIV[@class='articleTitle']/H3</title>
+		<edition>//DIV[@class='position']/A[3]</edition>
+		<author>//DIV[@class='articleTop']/DIV/DIV/A</author>
+		<content>//DIV[@class='articleTop']/DIV[2]/DIV[3]/DIV</content>
+		<time> //DIV[@class='articleTop']/DIV[2]/DIV/SPAN[2]</time>
+		<reNum>//DIV[@class='listSub']/DIV[3]</reNum>
+		<reauthor>//DIV[@class='articleReview']/DIV[@class='authorInfo']/DIV[@class='name']/A
+		</reauthor>
+		<recontent>//DIV[@class='articleReview']/DIV[2]/DIV[2]/DIV</recontent>
+		<retime>//DIV[@class='articleReview']/DIV[2]/DIV/SPAN[2]</retime>
+	</item>
+
+
+</bbs_pattern_body>

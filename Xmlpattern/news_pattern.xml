@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GBK"?>
+<news_pattern_body>
+	<item name="网易" >
+
+		<module>news_163_topic</module>
+		<title>
+				<title_xpath comment="相对路径">
+                 //DIV[@class='bg_endPage_blue clearfix']/DIV/H1
+                 </title_xpath>
+		</title>
+
+		<edition>
+			<edition_xpath comment="相对路径">
+				//SPAN[@class="crumb cDGray"]/A[3]
+			</edition_xpath>
+		</edition>
+
+		<author>
+			<author_xpath comment="相对路径">
+				//SPAN[@class="info"]/A[1]
+			</author_xpath>
+		</author>
+
+		<content>
+			<content_xpath comment="相对路径">
+				//DIV[@id="endText"]
+			</content_xpath>
+		</content>
+
+		<time>
+			<time_xpath comment="相对路径">
+				//SPAN[@class="info"]
+			</time_xpath>
+		</time>
+
+		<reNum>
+			<reNum_xpath comment="相对路径">
+				//SPAN[@id="replycounttop"]
+			</reNum_xpath>
+		</reNum>
+
+	</item>
+
+	
+</news_pattern_body>
